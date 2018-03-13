@@ -1,0 +1,187 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 231, 233);
+    font-family: Arial;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.wrap_compose{
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+}
+
+/*CSS OF TITLE "COMPOSE" */
+.compose{
+    color: #fff;
+    text-align: center;
+    background-color:#1C8EB7;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-style: solid black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+/*CSS OF FOLDERS*/
+.header{
+    background-color: #fff;
+    border-style: solid black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.header .title{
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid rgb(248, 244, 244) 1px;
+}
+
+.header .title img{
+    float: right;
+    padding-top: 3%;
+}
+
+.wrap_compose ul{
+    padding-left: 0px;
+}
+
+.wrap_compose ul li{
+    border-bottom: solid 1px rgb(248, 244, 244);
+}
+
+ul li{
+    list-style-type: none;
+    padding:10px;
+    padding-left:15px;
+}
+
+ul li i{
+    padding-right: 5px;
+}
+
+.wrap_compose ul li:first-child{
+    padding-top: 0px;
+}
+
+
+
+/*Notifications in the inbox and junk boxes. 
+I tried combine same lines but it didn't work as I wanted
+because of borders*/
+.button1{
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 5px;
+    width: 10%;
+    border-style: solid 1px;
+    border-radius: 2px;
+    padding: 3px;
+    background-color: #1C8EB7;
+}
+
+.button2{
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 5px;
+    width: 10%;
+    border-style: solid 1px;
+    border-radius: 2px;
+    padding: 3px;
+    background-color: #FE9739;
+}
+
+.circle {
+    float: left;
+    border-style: solid 5px red;
+	width: 5px;
+	height: 5px; 
+	/* width and height can be anything, as long as they're equal */
+}
+
+.wrap_mail{
+    float:right;
+    width: 70%;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    border-top-color:#1C8EB7;
+    border-top-width: 3px;    
+    margin-bottom: 15px;
+}
+
+.border{
+    border-bottom: solid 1px rgb(248, 244, 244);
+}
+
+.read_mail{
+    padding: 10px;
+}
+
+.message_subject{
+    padding: 10px;
+}
+
+.from{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.info{
+    float: right;
+    padding-top: 5px;
+    margin-bottom: 20px;    
+}
+
+.info img{
+    width: 50%;
+}
+
+.message_text{
+    padding: 10px;
+    padding-bottom: 5px;
+    line-height: 150%;
+}
+
+
+.photos ul li{
+    float:left;
+    padding-left: 0px;
+}
+
+.footer .left{
+    float:left;
+    padding: 10px;
+}
+
+.footer button{
+    height: 40px;
+    width: 120%;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(243, 237, 237);
+}
+
+.footer ul li{
+    float: left;
+    padding-right: 10px;
+}
+
+.footer .right{
+    float:right;
+}
